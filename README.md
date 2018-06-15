@@ -7,3 +7,14 @@ javascript and related naming conventions.
 
 Run the Peek or Open to the side commands to see the corresponding test or
 source file.
+
+## Example keybinding
+
+```json
+[
+    {
+        "key": "cmd+t",
+        "command": "extension.peekTestFileToTheSide"
+    }
+]
+```
