@@ -14,7 +14,11 @@ source file.
 [
     {
         "key": "cmd+t",
-        "command": "extension.peekTestFileToTheSide"
+        "command": "findTests.peekTestFileToTheSide"
+    },
+    {
+        "key": "cmd+shift+t",
+        "command": "findTests.peekTestFile"
     }
 ]
 ```

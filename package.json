@@ -1,6 +1,6 @@
 {
     "name": "vscode-find-tests",
-    "displayName": "vscode-find-tests",
+    "displayName": "Find tests",
     "description": "Find test files",
     "version": "0.3.1",
     "publisher": "gustavnikolaj",
@@ -11,18 +11,18 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.peekTestFile",
-        "onCommand:extension.peekTestFileToTheSide"
+        "onCommand:findTests.peekTestFile",
+        "onCommand:findTests.peekTestFileToTheSide"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.peekTestFile",
+                "command": "findTests.peekTestFile",
                 "title": "Peek test file."
             },
             {
-                "command": "extension.peekTestFileToTheSide",
+                "command": "findTests.peekTestFileToTheSide",
                 "title": "Open test file to the side."
             }
         ]
