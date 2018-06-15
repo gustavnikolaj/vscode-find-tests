@@ -34,7 +34,7 @@
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
-    "repository": "github:gustavnikolaj/vscode-find-tests",
+    "repository": "gustavnikolaj/vscode-find-tests",
     "devDependencies": {
         "typescript": "^2.6.1",
         "vscode": "^1.1.6",
