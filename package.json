@@ -11,18 +11,18 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:findTests.peekTestFile",
-        "onCommand:findTests.peekTestFileToTheSide"
+        "onCommand:extension.peekTestFile",
+        "onCommand:extension.peekTestFileToTheSide"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "findTests.peekTestFile",
+                "command": "extension.peekTestFile",
                 "title": "Peek test file."
             },
             {
-                "command": "findTests.peekTestFileToTheSide",
+                "command": "extension.peekTestFileToTheSide",
                 "title": "Open test file to the side."
             }
         ]
