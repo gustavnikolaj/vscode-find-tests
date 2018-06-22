@@ -2,7 +2,7 @@
     "name": "vscode-find-tests",
     "displayName": "Find tests",
     "description": "Find test files",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "publisher": "gustavnikolaj",
     "engines": {
         "vscode": "^1.23.0"
