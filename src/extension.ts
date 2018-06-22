@@ -71,7 +71,7 @@ export async function findFile(activeFile: vscode.Uri) : Promise<vscode.Uri> {
     const name = basename.replace('.spec' + ext, '').replace('.test' + ext, '').replace(ext, '');
 
     const allFilesMatching = await vscode.workspace.findFiles(`**/${name}{.js,.spec.js,.test.js}`);
-    const file = allFilesMatching.find(x => x.path === activeFile.fsPath);
+    const file = allFilesMatching.find(x => x.fsPath === activeFile.fsPath);
 
     if (!file) {
         throw new Error('File not found.');
